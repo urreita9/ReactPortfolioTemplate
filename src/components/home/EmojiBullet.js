@@ -2,14 +2,14 @@ import React from "react"
 import { Box } from "@mui/material"
 
 function EmojiBullet(props) {
-  const { emoji, text } = props
+  const { emoji, text, style } = props
 
   return (
     <Box
       component={"li"}
       fontSize={"1rem"}
       lineHeight={1.5}
-      style={{ cursor: "default" }}
+      style={{ cursor: "default", ...style }}
     >
       <Box
         component={"span"}

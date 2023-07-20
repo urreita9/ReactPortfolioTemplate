@@ -6,8 +6,9 @@ import EmojiBullet from "./EmojiBullet"
 import SocialIcon from "./SocialIcon"
 import { Box } from "@mui/material"
 import { info } from "../../info/Info"
+import { LinkResume } from "./LinkResume"
 
-export default function Home() {
+export default function Home({ darkMode }) {
   return (
     <Box
       component={"main"}
@@ -49,6 +50,7 @@ export default function Home() {
           {info.miniBio.map((bio, index) => (
             <EmojiBullet key={index} emoji={bio.emoji} text={bio.text} />
           ))}
+          <LinkResume darkMode={darkMode} />
         </Box>
         <Box
           display={"flex"}

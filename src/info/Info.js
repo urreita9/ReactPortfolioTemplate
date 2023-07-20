@@ -17,10 +17,6 @@ export const info = {
   baseColor: colors[0],
   miniBio: [
     {
-      emoji: "🎸",
-      text: "fueled by music",
-    },
-    {
       emoji: "🌎",
       text: "based in Argentina",
     },
