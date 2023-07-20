@@ -45,7 +45,27 @@ export const info = {
       label: "linkedin",
     },
   ],
-  bio: "Hello! I'm Francisco. I'm a frontend developer for Woopi. I completed Henry bootcamp and I am currently studying Computer Science at the Universidad Abierta Interamericana.",
+  bio: [
+    {
+      title: "Woopi, Argentina | August 2022 - Present.",
+      description:
+        "Argentinian company that develops both web and mobile applications. ",
+      tasks:
+        "Technical planning, development and testing of Medicloud: a web application which works as a medicine portal where doctors can attend patients, have a shift system and give medical prescriptions online. Participation, development and testing of other proyects from the company (Violetta, RCTA)",
+      techs:
+        "Typescript, React (web), cypress, React Native CLI, Jest, React Native Testing Library.",
+    },
+    {
+      title: "Aid for Aids, Colombia | June 2022 - Present.",
+      description:
+        "Aid for Aids is a non-profit organization committed to empowering communities vulnerable to HIV and the general population.",
+      tasks:
+        "Technical planning, development and testing of a mobileapplication to provide medical and psychological care by videocall to vulnerable populations in Latin America. Web backoffice development used by doctors andorganization staff.",
+      techs:
+        "Typescript, Next Js (web), React Native CLI, styled-components, Jest, React Native Testing Library.",
+    },
+  ],
+
   skills: {
     proficientWith: [
       "javascript",
